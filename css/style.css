@@ -37,7 +37,8 @@ header {
 }
 
 #Gallery {
-    border: 2px solid #FF0109
+    border: 2px solid #FF0109;
+    text-align:center;
 }
 
 #Gallery img {
@@ -45,5 +46,18 @@ header {
 }
 
 #Gallery figure {
-    text-align:left;
+    text-align:center;
+}
+
+#lit {
+    border: 3px dotted #04F000;
+    text-align:center;
+    color:#FF0109;
+    
+}
+
+#lit div {
+    padding:3rem;
+    max-width: 70rem;
+    margin: 0 auto;
 }
