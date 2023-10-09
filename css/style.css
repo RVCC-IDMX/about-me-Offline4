@@ -6,6 +6,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Playfair Display";
+}
+h1 {
     font-size:45pt;
 }
 
@@ -23,4 +25,13 @@ header {
 
 #hero img {
     width:300px;
+}
+
+#bio {
+        text-align:left;
+}
+
+#hobbies ul li {
+    color:black
+    
 }
