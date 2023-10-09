@@ -35,3 +35,15 @@ header {
     color:black
     
 }
+
+#Gallery {
+    border: 2px solid #FF0109
+}
+
+#Gallery img {
+    Max-width:150%;
+}
+
+#Gallery figure {
+    text-align:left;
+}
