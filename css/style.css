@@ -50,19 +50,35 @@ section #hobbies {
     text-align: center;
 }
 
-#Gallery {
-    border: 2px solid #FF0109;
-    text-align:center;
-    
+/* Gallery Styles */
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
 }
 
-#Gallery img {
-    Max-width:150%;
+.gallery-container figure{
+    margin: 0;
 }
 
-#Gallery figure {
-    text-align:center;
-    margin-right: 2rem;
+.gallery-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-container img:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px){
+    .gallery-container{
+        grid-template-columns: 1fr;
+    }
 }
 
 #lit {
