@@ -31,14 +31,12 @@ This projects incorporates content and resources that are not my original creati
 - **Videos**: [Youtube](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
 - **Text**: [Text]()
 - **Typography**: [Google Fonts]()
-- **Blog Sources**: NRA. “NRA-ILA | Why Gun Control Doesn’t Work.” NRA-ILA, 2023, www.nraila.org/why-gun-control-doesn-t-work.
-                    
-                    Pew Research Center. “What the Data Says About Gun Deaths in the U.S. | Pew Research Center.” Pew Research Center, 26 Apr. 2023, www.pewresearch.org/short-reads/2023/04/26/what-the-data-says-about-gun-deaths-in-the-u-s.
+- **Blog Sources**: [NRA. “NRA-ILA | Why Gun Control Doesn’t Work.” NRA-ILA, 2023](www.nraila.org/why-gun-control-doesn-t-work), [Pew Research Center. “What the Data Says About Gun Deaths in the U.S. | Pew Research Center.” Pew Research Center, 26 Apr. 2023](www.pewresearch.org/short-reads/2023/04/26/what-the-data-says-about-gun-deaths-in-the-u-s)
                    
                     ProCon. “Gun Control - Pros and Cons - ProCon.org.” Gun Control, 3 Aug. 2023, gun-control.procon.org.
                     
                     The Rand Corporation. “What Science Tells Us About the Effects of Gun Policies.” RAND, 2023, www.rand.org/research/gun-policy/key-findings/what-science-tells-us-about-the-effects-of-gun-policies.html.
-                    
+
 ## License
 
 This project's content is released under the MIT License, which permits commercial use, modification, distribution, and private use. For more details, see the LICENSE file included in this repository.
