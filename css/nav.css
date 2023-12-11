@@ -1,0 +1,158 @@
+/* make scrolling smooth */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* 
+ get rid of padding & sizing on body so
+ header is at top
+*/
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* add some padding back to rest of page */
+main {
+    padding: 2vw;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    z-index: 2;
+}
+
+
+/* logo */
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 96px;
+}
+
+.logo-title{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Hamburger menu styles */
+.hamburger{
+    display: none;
+}
+
+.hamburger span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px 40px;
+    transition: all 0.3s linear;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.navbar-links{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+/* Navbar links styles */
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-links li {
+    padding: 0 1rem;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+/* 
+media query for non-mobile nav bar
+min-width set to width of nav elements 
+such that no text wraps 
+*/
+@media (max-width: 767px){
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Styles to hide/show the menu */
+    .navbar-links{
+        display: none;
+        flex-direction: column;
+        top: 100%;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+    }
+
+    .navbar-links li{
+        text-align: center;
+    }
+
+    .nav-toggle:checked + .hamburger + .navbar-links{
+        display: flex;
+    }
+
+
+}
+
+@media (min-width: 768px){
+    body{
+        padding-top: 0;
+    }
+    .navbar{
+        position: relative;
+    }
+
+    .navbar-links{
+        display: flex;
+        position: relative;
+        width: auto;
+    }
+
+    .navbar-links ul{
+        flex-direction: row;
+    }
+
+    .navbar-links li{
+        padding: 0 1rem;
+    }
+
+    .hamburger, .nav-toggle{
+        display: none;
+    }
+}
