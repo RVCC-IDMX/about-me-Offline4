@@ -11,7 +11,7 @@ The purpose of this project is to showcase my abilities and the knowledge I've g
 
 ## Netlify Status
 
-[!Netlify Status] [https://api.netlify.com/api/v1/badges/]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/720bd0eb-ed15-41d2-84b4-d1131d8ff4b2/deploy-status?branch=dev)](https://app.netlify.com/sites/about-me-offline4/deploys)
 
 ## Color Scheme
 
