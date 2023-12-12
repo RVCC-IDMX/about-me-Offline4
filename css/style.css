@@ -23,6 +23,14 @@ header {
     padding:10px;
 }
 
+@media screen and (max-width: 768px){
+    
+
+    #hero{
+        margin-top: 100px;
+    }
+}
+
 #hero img {
     width:300px;
 }
@@ -135,6 +143,11 @@ section #hobbies {
     font-size: 2em;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.iframe-container{
+    max-width: 70rem;
+    margin: 0 auto;
 }
 /* Contact Form */
 
