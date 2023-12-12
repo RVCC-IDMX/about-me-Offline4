@@ -17,10 +17,10 @@ The purpose of this project is to showcase my abilities and the knowledge I've g
 
 The color scheme of this project has been carefully selected to provide an aesthetic visual experience while ensuring  accessibility and readability:
 
-- **Primary Color**: `#3498db` 
-- **Secondary Color**: `#3498db` 
-- **Background Color**: `#3498db` 
-- **Text Color**: `#3498db` 
+- **Primary Color**: `#04F000` 
+- **Secondary Color**: `#742a86` 
+- **Background Color**: `#96F5F1` 
+- **Text Color**: `#030303` 
 
 Visual examples of the color scheme can be found throughout the project's UI components.
 
