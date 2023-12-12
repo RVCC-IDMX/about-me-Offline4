@@ -1,7 +1,7 @@
 # My Portfolio Project
 
 **Website Logo**: 
-![Logo](img\CK_Logo.png)
+![Logo](img/CK_Logo.png)
 
 Welcome to the repository for my personal portfolio project! This document provides an overview of the project, detailing the purpose, design choices, and the skills I have honed during its creation.
 
