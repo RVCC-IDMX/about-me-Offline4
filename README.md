@@ -15,7 +15,7 @@ The purpose of this project is to showcase my abilities and the knowledge I've g
 
 ## Color Scheme
 
-The color scheme of this project has been carefully selected to provide an aesthetic visual experience while ensuring  accessibility and readability:
+The color scheme of this project has been carefully selected to provide an aesthetic visual experience while ensuring  accessibility and readability-
 
 - **Primary Color**: `#04F000`
 - **Secondary Color**: `#742a86` 
